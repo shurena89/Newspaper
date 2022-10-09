@@ -9,9 +9,54 @@
     <title>Newspaper</title>
 </head>
 <body>
-<h1>Hello, you can do it</h1>
-    
+<!-- Header -->
+<header class="container">
+<!-- 1st line  -->
+<div class="container d-flex justify-content-between align-items-center">
+    <p id="today"></p>
+    <h1 class="text-center mt-lg-5 mt-md-2 text-dark pb-lg-4">News Time</h1>
+    <p id="clock"></p>
+</div>
 
+<!-- 2nd line  -->
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ms-lg-4 gap-lg-5 gap-md-2">
+                <li class="nav-link" href="#">Category 1</li>
+                <li class="nav-link" href="#">Category 2</li>
+                <li class="nav-link" href="#">Category 3</li>
+                <li class="nav-link" href="#">Category 4</li>
+                <li class="nav-link" href="#">Category 5</li>
+                <li class="nav-link" href="#">Category 6</li>
+                <li class="nav-link" href="#">Category 7</li>
+                <li class="nav-link" href="#">Category 8</li>
+                <li class="nav-link" href="#">Category 9</li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Breaking news line (marquee)  -->
+<div class="container mt-0">
+    <div class="row d-flex justify-content-between align-items-center breaking-news bg-dark pt-lg-2 pb-lg-2 mt-1">
+        <marquee class="news-content" onmouseover="this.stop();" onmouseout="this.start();">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, est? Velit reiciendis ducimus optio necessitatibus illum nihil quaerat in amet distinctio doloribus aut, sed exercitationem qui ab non debitis fuga!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus maxime optio ratione voluptate accusantium nostrum, modi quisquam fugiat sequi voluptatum autem vero veritatis iusto explicabo consequatur cum! Quae, obcaecati suscipit. </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis tenetur, dignissimos ad rerum facilis eaque modi ipsum iste asperiores ipsam quibusdam iure doloremque nam fugit magni quis eos. Velit.</p>
+        </marquee>
+     </div>
+</div>
+
+</header>
+<!-- News Section -->
+<!-- Footer -->
 
 
     <!--Bootstrap-->
@@ -19,6 +64,6 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
     <!--JS-->
-    <script src="generator.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
