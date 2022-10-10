@@ -32,6 +32,14 @@ p {
 .section1, .section-last {
   border-style: none none double none;
 }
+.section1 a, .section-last a {
+  text-decoration: none;
+  color: black;
+}
+.section1 a:hover, .section-last a:hover {
+  text-decoration: underline;
+  color: black;
+}
 
 .big-cards {
   border-style: none groove none none;

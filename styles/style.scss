@@ -28,7 +28,19 @@ color: white;
 
 .section1, .section-last {
 border-style: none none double none;
+a{
+    text-decoration: none;
+    color: black;
 }
+a:hover {
+    text-decoration: underline;
+    color: black;
+
+}
+}
+
+
+
 
 .big-cards{
     border-style: none groove none none;
@@ -47,3 +59,4 @@ li a:hover {
     
 }
 }
+
