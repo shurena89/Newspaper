@@ -1,19 +1,49 @@
 @import './resets';
 @import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+h1{
+    font-family: 'Special Elite', cursive;
+}
 
+h2, h5 {
+    font-family: 'Vidaloka', serif;
+}
 
-
-  .navbar {
+.navbar {
     border-style: groove none double none;
     
-  }
+}
 
- 
+p{
+    font-family: 'Roboto', sans-serif;
+}
 
- .news-content p {
+.news-content p {   
+display: inline;
+color: white;
+}
+
+.section1, .section-last {
+border-style: none none double none;
+}
+
+.big-cards{
+    border-style: none groove none none;
+}
+footer{
+ul {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover {
+    text-decoration: underline;
+    color: black;
     
-     display: inline;
-     color: white;
-     
- }
+}
+}
